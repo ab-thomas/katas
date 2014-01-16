@@ -4,35 +4,20 @@ end
 
 def fizzbuzz(n) 
 
-  if divide_by(n, 15)
-     "FizzBuzz"
-  elsif divide_by(n, 3)
-     "Fizz"
-  elsif divide_by(n, 5)
-     "Buzz"
-  else
-    n
+    if divide_by(n, 15)
+      "FizzBuzz"
+    elsif divide_by(n, 3)
+      "Fizz"
+    elsif divide_by(n, 5)
+      "Buzz"
+    else
+      n
+  end
 end
 
 
-end
 
 
 
-
-
-# Refracted
-
-# def divisible_by?(n, divider)
-#   n % divider == 0
-# end
-
-# def fizzbuzz(n)
-
-#   return "FizzBuzz" if divisible_by?(n, 15)
-#   return "Fizz" if divisible_by?(n, 3)
-#   return "Buzz" if divisible_by?(n, 5)
-#   n
-# end
 
 
